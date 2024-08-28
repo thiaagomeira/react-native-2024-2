@@ -1,13 +1,23 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import Exercicio03 from './src/components/Exercicio03'
+import React from 'react';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import Exercicio04 from './src/components/Exercicio04';
 
 const App = () => {
-  return (
-    <View>
-      <Exercicio03 />
-    </View>
-  )
-}
+  const items = ['Banana', 'Maçã', 'Abacaxi', 'Morango'];
 
-export default App
+  return (
+    <SafeAreaView style={styles.container}>
+      <Exercicio04 items={items} />
+    </SafeAreaView>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f8f8f8',
+    padding: 16,
+  },
+});
+
+export default App;
