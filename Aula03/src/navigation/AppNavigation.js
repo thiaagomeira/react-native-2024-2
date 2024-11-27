@@ -4,7 +4,6 @@ import HomeScreen from '../screens/HomeScreen'
 import DetailsScreen from '../screens/DetailsScreen'
 
 const AppNavigation = () => {
-    // Inicializa o Stack Navigation
     const Stack = createNativeStackNavigator()
   return (
     <Stack.Navigator>
