@@ -53,7 +53,7 @@ Este repositório contém exercícios desenvolvidos durante as aulas da Discipli
 
 ## Como Executar
 
-1. Instale o node vv18.20.5:
+1. Instale o node v18.20.5:
    https://nodejs.org/dist/v18.20.5/node-v18.20.5-x64.msi
    
 3. Clone este repositório:
