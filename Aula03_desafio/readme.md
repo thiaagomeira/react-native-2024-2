@@ -1,19 +1,36 @@
-# Aula 03 desafio: Navegação com React Navigation em React Native
+# Aula 03 - Desafio: Aplicativo de Perfil de Usuário
 
-Nesta aula, foram desenvolvidos quatro exercícios focados na implementação de navegação entre telas utilizando o **React Navigation** em projetos React Native. A navegação foi implementada com o Stack Navigator.
+Neste desafio, foi proposto desenvolver um aplicativo simples com duas telas: uma tela Home que exibe uma lista de usuários e uma tela de Detalhes que exibe informações detalhadas do usuário selecionado.
 
-## Exercícios
+## Objetivo
 
-### Desafio: Aplicativo de Perfil de Usuário
-- **Desafio:** Criar um aplicativo com duas telas: uma tela de lista de usuários e uma tela de detalhes do perfil.
-  - **Tela Home (Lista de Usuários):** Mostra uma lista de usuários. Ao clicar em um usuário, navega para a tela de detalhes, passando as informações do usuário como parâmetro.
-  - **Tela de Detalhes (Perfil do Usuário):** Exibe as informações detalhadas do usuário selecionado.
-  - **Passos:**
-    - Defina o StackNavigator para navegação.
-    - Crie a lista de usuários com um array de objetos (nome e idade).
-    - Use um componente `Button` ou `TouchableOpacity` para permitir a navegação ao clicar no usuário.
-    - Passe os dados do usuário para a tela de detalhes e exiba-os com componentes `<Text>`.
-- **Conceitos Utilizados:** Navegação Stack, passagem de parâmetros, renderização de listas.
+O objetivo deste desafio é praticar a navegação entre telas usando o **React Navigation**, bem como a passagem de parâmetros entre componentes em **React Native**.
+
+## Desafio
+
+### Tela Home: Lista de Usuários
+- Exibe uma lista de usuários com informações básicas (nome e idade).
+- Cada usuário na lista é representado por um botão ou `<TouchableOpacity>`.
+- Ao clicar em um usuário, o aplicativo navega para a tela de Detalhes e passa as informações do usuário selecionado como parâmetros.
+
+### Tela de Detalhes: Perfil do Usuário
+- Recebe os parâmetros passados pela tela Home.
+- Exibe as informações detalhadas do usuário (nome, idade, etc.) usando componentes `<Text>`.
+
+## Passos para Implementação
+
+1. **Configuração do Navegador:**
+   - Definir um **StackNavigator** no projeto React Native.
+   - Configurar as rotas para as duas telas: Home e Detalhes.
+
+2. **Tela Home:**
+   - Criar um array de objetos representando os usuários, com informações como nome e idade.
+   - Renderizar a lista de usuários usando um componente de lista (`FlatList` ou map).
+   - Envolver cada item da lista em um `<Button>` ou `<TouchableOpacity>`, e ao clicar, navegar para a tela de Detalhes, passando os dados do usuário como parâmetros.
+
+3. **Tela de Detalhes:**
+   - Receber os parâmetros passados pela tela Home.
+   - Exibir as informações do usuário (nome, idade) em componentes `<Text>`.
 
 ## Como Executar
 
