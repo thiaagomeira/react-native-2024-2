@@ -35,8 +35,6 @@ Nesta aula, foram desenvolvidos quatro exercícios focados nos fundamentos do **
 3. Instale as dependências:
    npm install
 
-4. Crie uma conta no Firebase e configure uma autenticação para ser utilizado no arquivo firebaseConfig.js.
-
 5. Execute o projeto:
    npm start ou expo start
    Obs: O npm start vai abrir um QR Code e uma lista de opções. Você escanear o QR no app Expo Go e testar a aplicação no celular, no computadores você pode apertar a opção "w" que vai abrir o navegador web com a     aplicação para testar.
