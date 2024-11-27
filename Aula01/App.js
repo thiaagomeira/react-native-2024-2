@@ -1,13 +1,20 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import Exercicio03 from './src/components/Exercicio03'
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
-const App = () => {
+
+export default function App() {
   return (
-    <View>
-      <Exercicio03 />
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
     </View>
-  )
-}
+  );
+};
 
-export default App
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f8f8f8',
+    padding: 16,
+  },
+});
