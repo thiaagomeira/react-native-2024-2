@@ -1,25 +1,27 @@
 # Aula 03: Navegação com React Navigation em React Native
 
-Nesta aula, foram desenvolvidos quatro exercícios focados na implementação de navegação entre telas utilizando o **React Navigation** em projetos React Native. A navegação foi implementada com o Stack Navigator.
+Nesta aula, foram desenvolvidos três exercícios focados na implementação de navegação em **React Native** usando o **React Navigation**, além de revisitar conceitos de layout com `<View>`.
 
 ## Exercícios
 
 ### Exercício 01: Configuração do React Navigation
 - **Objetivo:** Configurar o React Navigation em um novo projeto React Native.
-  - Inicie um novo projeto React Native.
-  - Instale o React Navigation e suas dependências.
-  - Configure um StackNavigator simples com pelo menos duas telas.
-- **Conceitos Utilizados:** Configuração de navegação, StackNavigator.
+- **Tarefas:**
+  - Iniciar um novo projeto React Native.
+  - Instalar o React Navigation e suas dependências.
+  - Configurar um StackNavigator simples com duas telas.
+- **Conceitos Utilizados:** Navegação entre telas, instalação de bibliotecas, StackNavigator.
 
-### Exercício 02: Centralização de View
-- **Objetivo:** Repetir o exercício de centralização, onde um item filho `<View>` deve ser centralizado vertical e horizontalmente dentro de um container `<View>`, com dimensões de 50x50 pixels e uma cor de fundo.
-- **Conceitos Utilizados:** Flexbox, centralização de itens.
+### Exercício 02: Centralização de View em Container
+- **Objetivo:** Dentro de um container `<View>`, posicionar um item filho `<View>` no centro vertical e horizontalmente. O item filho deve ter dimensões de 50x50 pixels e uma cor de fundo.
+- **Conceitos Utilizados:** Flexbox, centralização de itens, alinhamento.
 
 ### Exercício 03: Passagem de Parâmetros entre Telas
-- **Objetivo:** Modificar a **HomeScreen** para passar parâmetros para a **DetailsScreen** e exibi-los.
-  - Na HomeScreen, defina parâmetros para passar ao navegar para a DetailsScreen.
-  - Na DetailsScreen, exiba os parâmetros recebidos (como um nome ou idade, por exemplo).
-- **Conceitos Utilizados:** Stack Navigator, passagem de parâmetros entre telas.
+- **Objetivo:** Modificar a HomeScreen para passar parâmetros para a DetailsScreen e exibi-los.
+- **Tarefas:**
+  - Atualizar a HomeScreen para enviar parâmetros ao navegar para a DetailsScreen.
+  - Exibir os parâmetros recebidos na DetailsScreen.
+- **Conceitos Utilizados:** Passagem de parâmetros entre telas, navegação com React Navigation.
 
 ## Como Executar
 
@@ -40,8 +42,8 @@ Nesta aula, foram desenvolvidos quatro exercícios focados na implementação de
 
 Tecnologias Utilizadas
 React Native
-React Navigation
-Flexbox para layout
+React Navigation para navegação
+Componentes básicos: <View>, <Text>, navegação com parâmetros.
 
 Licença
 Este projeto está sob a licença MIT.
