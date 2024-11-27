@@ -1,6 +1,6 @@
-# Repositório de Exercícios de React Native
+# Repositório de Exercícios da Disciplina Programação de Dispositivos Moveis
 
-Este repositório contém exercícios desenvolvidos durante as aulas de React Native, organizados em 4 pastas, cada uma referente a um dia de aula. Todos os exercícios foram criados utilizando **React Native**.
+Este repositório contém exercícios desenvolvidos durante as aulas da Disciplina Programação de Dispositivos Moveis, organizados em 5 pastas, cada uma referente a um dia de aula. Todos os exercícios foram criados utilizando **React Native**.
 
 ## Estrutura do Repositório
 
@@ -20,6 +20,37 @@ Este repositório contém exercícios desenvolvidos durante as aulas de React Na
   - **Tópicos abordados:** Context API.
   - **Descrição:** Na quarta aula, foi introduzido o uso da **Context API** para gerenciar o estado global da aplicação, permitindo o compartilhamento de dados entre componentes sem a necessidade de prop drilling.
 
+- **Study-App:**
+  - **Tópicos abordados:** Foram abordados todos os componentes das aulas anteriores.
+  - **Descrição:** Este exercício utiliza o **Firebase** para autenticação e gerenciamento de dados. Abaixo estão as instruções para configurar o Firebase no projeto **Study-App**.
+      1. **Crie um projeto no Firebase:**
+         - Acesse a página do [Firebase](https://firebase.google.com/) e crie uma conta.
+         - Acesse o [console do Firebase](https://console.firebase.google.com/).
+         - Crie um novo projeto e configure os serviços que você deseja utilizar (Autenticação, Firestore, etc.).
+
+      3. **Adicione um app ao projeto Firebase:**
+         - No painel do Firebase, clique em "Adicionar app" e selecione a plataforma **Web**.
+         - Siga as instruções para registrar o app e obtenha as **credenciais** do Firebase.
+
+      4. **Instale o Firebase no projeto:**
+         - No terminal, execute o seguinte comando para adicionar o Firebase às dependências:
+         - npm install firebase
+
+      5. Configurar as credenciais no projeto:
+         - Com as credenciais do Firebase (API key, Auth domain, etc.), crie um arquivo **firebaseConfig.js** no caminho **src/config** com o seguinte conteúdo:
+      
+        const firebaseConfig = {
+          apiKey: "SUA_API_KEY",
+          authDomain: "SEU_AUTH_DOMAIN",
+          projectId: "SEU_PROJECT_ID",
+          storageBucket: "SEU_STORAGE_BUCKET",
+          messagingSenderId: "SEU_MESSAGING_SENDER_ID",
+          appId: "SEU_APP_ID"
+        };
+        
+        export default firebaseConfig;
+
+
 ## Como Executar
 
 1. Instale o node vv18.20.5:
@@ -32,19 +63,13 @@ Este repositório contém exercícios desenvolvidos durante as aulas de React Na
    cd pasta-do-exercicio
 
 5. Instale as dependências:
-   - Exercícios Aula 01
-       npm install
-       npm install -g expo
-       npx expo install react-native-web react-dom -- --legacy-peer-deps
-       npx expo install @expo/metro-runtime -- --legacy-peer-deps
-   - Exercícios Aula 03
-       npm install @react-navigation/native
-       npm install react-native-screens react-native-safe-area-context
-       npm install @react-navigation/native-stack
-   - Exercícios Aula 04  
-       npm install react-native-picker/picker
-       npm install react-native-modal-datetime-picker
+   npm install
+
+6. Crie uma conta no Firebase e configure uma conta de autenticação para ser utilizado no arquivo firebaseConfig.js. As informações para serem inseridas no fite
 
 7. Execute o projeto:
-   npm start
+   npm start ou expo start
    Obs: O npm start vai abrir um QR Code e uma lista de opções. Você escanear o QR no app Expo Go e testar a aplicação no celular, no computadores você pode apertar a opção "w" que vai abrir o navegador web com a aplicação para testar.
+
+Licença
+Este projeto está sob a licença MIT.
