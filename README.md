@@ -17,7 +17,6 @@ Este repositório contém exercícios desenvolvidos durante as aulas da Discipli
   - **Descrição:** A aula teve como objetivo a implementação de navegação entre telas utilizando a biblioteca **React Navigation**. Os exercícios incluíram a criação de um Stack Navigator para gerenciar as rotas entre diferentes telas.
 
 - **Aula 03 desafio:**
-  - **Tela de Detalhes (Perfil do Usuário):** Exibe informações detalhadas do usuário selecionado.
   - **Tópicos abordados:** Construir um aplicativo com duas telas utilizando React Navigation, Stack Navigator.
   - **Descrição:** O objetivo desta aula é consturir um tela home e uma tela detalhes. Tela Home (Lista de Usuários) que mostra uma lista de usuários. Ao clicar em um usuário, navega para a tela de detalhes, passando informações do usuário como parâmetro.
 
