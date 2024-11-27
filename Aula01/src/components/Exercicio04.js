@@ -1,29 +1,16 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text } from 'react-native'
+import React from 'react'
 
-const Exercicio04 = ({ items }) => {
+const Exercicio4 = () => {
+    const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
+
   return (
-    <View style={styles.container}>
+    <View>
       {items.map((item, index) => (
-        <Text key={index} style={styles.item}>
-          {item}
-        </Text>
+        <Text key={index}>{item}</Text>
       ))}
     </View>
-  );
-};
-
-const styles = StyleSheet.create({
-  container: {
-    marginVertical: 20,
-  },
-  item: {
-    fontSize: 18,
-    padding: 10,
-    backgroundColor: '#e0e0e0',
-    marginBottom: 10,
-    borderRadius: 5,
-  },
-});
+  )
+}
 
 export default Exercicio04;
