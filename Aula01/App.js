@@ -1,14 +1,13 @@
-import React from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
-import Exercicio04 from './src/components/Exercicio04';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
-const App = () => {
-  const items = ['Banana', 'Maçã', 'Abacaxi', 'Morango'];
 
+export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Exercicio04 items={items} />
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 };
 
@@ -19,5 +18,3 @@ const styles = StyleSheet.create({
     padding: 16,
   },
 });
-
-export default App;
