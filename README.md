@@ -1,6 +1,6 @@
 # Repositório de Exercícios da Disciplina Programação de Dispositivos Moveis
 
-Este repositório contém exercícios desenvolvidos durante as aulas da Disciplina Programação de Dispositivos Moveis, organizados em 5 pastas, cada uma referente a um dia de aula. Todos os exercícios foram criados utilizando **React Native**.
+Este repositório contém exercícios desenvolvidos durante as aulas da Disciplina Programação de Dispositivos Moveis, organizados em 5 pastas, 4 pastas referentes a um dia de aula e uma pasta referente ao projeto desenvolvido na disciplina. Todos os exercícios foram criados utilizando **React Native**.
 
 ## Estrutura do Repositório
 
@@ -65,11 +65,11 @@ Este repositório contém exercícios desenvolvidos durante as aulas da Discipli
 5. Instale as dependências:
    npm install
 
-6. Crie uma conta no Firebase e configure uma conta de autenticação para ser utilizado no arquivo firebaseConfig.js. As informações para serem inseridas no fite
+6. Crie uma conta no Firebase e configure uma autenticação para ser utilizado no arquivo firebaseConfig.js.
 
 7. Execute o projeto:
    npm start ou expo start
-   Obs: O npm start vai abrir um QR Code e uma lista de opções. Você escanear o QR no app Expo Go e testar a aplicação no celular, no computadores você pode apertar a opção "w" que vai abrir o navegador web com a aplicação para testar.
+   Obs: O npm start vai abrir um QR Code e uma lista de opções. Você escanear o QR no app Expo Go e testar a aplicação no celular, no computadores você pode apertar a opção "w" que vai abrir o navegador web com a     aplicação para testar.
 
 Licença
 Este projeto está sob a licença MIT.
