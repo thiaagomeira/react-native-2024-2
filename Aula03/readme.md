@@ -21,17 +21,6 @@ Nesta aula, foram desenvolvidos quatro exercícios focados na implementação de
   - Na DetailsScreen, exiba os parâmetros recebidos (como um nome ou idade, por exemplo).
 - **Conceitos Utilizados:** Stack Navigator, passagem de parâmetros entre telas.
 
-### Exercício 04: Aplicativo de Perfil de Usuário
-- **Desafio:** Criar um aplicativo com duas telas: uma tela de lista de usuários e uma tela de detalhes do perfil.
-  - **Tela Home (Lista de Usuários):** Mostra uma lista de usuários. Ao clicar em um usuário, navega para a tela de detalhes, passando as informações do usuário como parâmetro.
-  - **Tela de Detalhes (Perfil do Usuário):** Exibe as informações detalhadas do usuário selecionado.
-  - **Passos:**
-    - Defina o StackNavigator para navegação.
-    - Crie a lista de usuários com um array de objetos (nome e idade).
-    - Use um componente `Button` ou `TouchableOpacity` para permitir a navegação ao clicar no usuário.
-    - Passe os dados do usuário para a tela de detalhes e exiba-os com componentes `<Text>`.
-- **Conceitos Utilizados:** Navegação Stack, passagem de parâmetros, renderização de listas.
-
 ## Como Executar
 
 1. Clone este repositório:
