@@ -39,5 +39,9 @@ Nesta aula, foram desenvolvidos quatro exercícios focados nos fundamentos do **
    npm start ou expo start
    Obs: O npm start vai abrir um QR Code e uma lista de opções. Você escanear o QR no app Expo Go e testar a aplicação no celular, no computadores você pode apertar a opção "w" que vai abrir o navegador web com a     aplicação para testar.
 
+Tecnologias Utilizadas
+React Native
+Hooks do React (useState)
+
 Licença
 Este projeto está sob a licença MIT.
