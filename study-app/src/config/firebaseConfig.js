@@ -11,12 +11,12 @@ import {
 } from '@env';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDah43X9mJfgKIh3GFPsolRTPeGo4-1v-0",
-    authDomain: "study-app-88de7.firebaseapp.com",
-    projectId: "study-app-88de7",
-    storageBucket: "study-app-88de7.firebasestorage.app",
-    messagingSenderId: "771225080839",
-    appId: "1:771225080839:web:a9e9faa2d33e10b41646a2"
+    apiKey: FIREBASE_API_KEY,
+    authDomain: FIREBASE_AUTH_DOMAIN,
+    projectId: FIREBASE_PROJECT_ID,
+    storageBucket: FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
+    appId: FIREBASE_APP_ID,
   };
 
 
