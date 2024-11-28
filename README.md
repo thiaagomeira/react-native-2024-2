@@ -1,6 +1,6 @@
 # Repositório de Exercícios da Disciplina Programação de Dispositivos Moveis
 
-Este repositório contém exercícios desenvolvidos durante as aulas da Disciplina Programação de Dispositivos Moveis, organizados em 5 pastas, 4 pastas referentes a um dia de aula e uma pasta referente ao projeto desenvolvido na disciplina. Todos os exercícios foram criados utilizando **React Native**. Em todos os exercícios existe um **Readme** contendo instruções para funcionamento.
+Este repositório contém exercícios desenvolvidos durante as aulas da Disciplina Programação de Dispositivos Moveis, organizados em 5 pastas, 4 pastas referentes a um dia de aula e uma pasta referente ao projeto desenvolvido na disciplina. Todos os exercícios foram criados utilizando **React Native**. Nas 4 pastas Aula e na pasta do Study-app existe um **Readme** contendo instruções para funcionamento.
 
 ## Estrutura do Repositório
 
