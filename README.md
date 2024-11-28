@@ -6,23 +6,23 @@ Este repositório contém exercícios desenvolvidos durante as aulas da Discipli
 
 - **Aula 01:**
   - **Tópicos abordados:** prop, counter, `<TextInput>`, `<Text>`.
-  - **Descrição:** Nesta aula, foram explorados os conceitos básicos de props e estados em React Native. Os exercícios incluíram a criação de um contador, o uso de entradas de texto com `<TextInput>`, e a exibição de informações com o componente `<Text>`.
+  - **Descrição:** Nestes exercícios, foram explorados os conceitos básicos de props e estados em React Native. Os exercícios incluíram a criação de um contador, o uso de entradas de texto com `<TextInput>`, e a exibição de informações com o componente `<Text>`.
 
 - **Aula 02:**
   - **Tópicos abordados:** `<View>`.
-  - **Descrição:** Nesta aula, foram realizados exercícios focados no componente `<View>`, explorando a organização de layout e estrutura de componentes dentro da aplicação.
+  - **Descrição:** Foram realizados exercícios focados no componente `<View>`, explorando a organização de layout e estrutura de componentes dentro da aplicação.
 
 - **Aula 03:**
   - **Tópicos abordados:** React Navigation, Stack Navigator.
-  - **Descrição:** A aula teve como objetivo a implementação de navegação entre telas utilizando a biblioteca **React Navigation**. Os exercícios incluíram a criação de um Stack Navigator para gerenciar as rotas entre diferentes telas.
+  - **Descrição:** Estes exercícios tiveram como objetivo a implementação de navegação entre telas utilizando a biblioteca **React Navigation**. Os exercícios incluíram a criação de um Stack Navigator para gerenciar as rotas entre diferentes telas.
 
 - **Aula 03 desafio:**
   - **Tópicos abordados:** Construir um aplicativo com duas telas utilizando React Navigation, Stack Navigator.
-  - **Descrição:** O objetivo desta aula é consturir um tela home e uma tela detalhes. Tela Home (Lista de Usuários) que mostra uma lista de usuários. Ao clicar em um usuário, navega para a tela de detalhes, passando informações do usuário como parâmetro.
+  - **Descrição:** O objetivo deste exercício foi consturir um tela home e uma tela detalhes. Tela Home (Lista de Usuários) que mostra uma lista de usuários. Ao clicar em um usuário, navega para a tela de detalhes, passando informações do usuário como parâmetro.
 
 - **Aula 04:**
   - **Tópicos abordados:** Context API.
-  - **Descrição:** Na quarta aula, foi introduzido o uso da **Context API** para gerenciar o estado global da aplicação, permitindo o compartilhamento de dados entre componentes sem a necessidade de prop drilling.
+  - **Descrição:** Neste exercício foi introduzido o uso da **Context API** para gerenciar o estado global da aplicação, permitindo o compartilhamento de dados entre componentes sem a necessidade de prop drilling.
 
 - **Study-App:**
   - **Tópicos abordados:** Foram abordados todos os componentes das aulas anteriores.
@@ -69,7 +69,7 @@ Este repositório contém exercícios desenvolvidos durante as aulas da Discipli
 5. Instale as dependências:
    npm install
 
-6. Crie uma conta no Firebase e configure uma autenticação para ser utilizado no arquivo firebaseConfig.js.
+6. Para correto funcionamento do Study-app, crie uma conta no Firebase e configure uma autenticação para ser utilizado no arquivo firebaseConfig.js.
 
 7. Execute o projeto:
    npm start ou expo start
