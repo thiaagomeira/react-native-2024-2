@@ -60,10 +60,10 @@ npm install firebase
 ### 5. Se quiser configurar o APK, siga os passos a seguir:
 - Registro no site: expo.dev
 - Depois instale as segintes dependências:
-    npm install -g eas-cli (expo-cli)
-    eas login
-    eas build:configure
-    eas build -p android --profile preview
+    * npm install -g eas-cli (expo-cli)
+    * eas login
+    * eas build:configure
+    * eas build -p android --profile preview
 
 ## Como Executar
 
